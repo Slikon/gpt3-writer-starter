@@ -66,6 +66,10 @@ body {
     color: rgba(255, 255, 255, 0.75);
 }
 
+.header-subtitle .bold {
+    text-decoration: underline;
+}
+
 .prompt-container {
     place-content: flex-end center;
     align-items: center;
@@ -127,7 +131,7 @@ textarea {
     display: flex;
     place-content: center;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex: 0 0 auto;
     flex-flow: row nowrap;
     gap: 12px;
@@ -370,6 +374,10 @@ textarea {
 
     .header-subtitle h2 {
         text-align: center;
+    }
+
+    .header-subtitle .bold {
+        text-decoration: underline;
     }
 
     .key-stroke, .or {
